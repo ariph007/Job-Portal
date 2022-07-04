@@ -6,14 +6,14 @@ const Hero = () => {
     return (
         <div className='flex md:flex-row flex-col mt-5 gap-10'>
             <div className="textHero flex flex-col justify-center content-center">
-                <p className='text-slate-800 font-bold text-5xl mb-4'>
+                <p className='text-slate-800 font-bold text-4xl mb-4'>
                     Find your dream job with
-                    <span className='text-blue-600 font-bold text-5xl pl-2'>
+                    <span className='text-blue-600 font-bold text-4xl pl-2'>
                         JobFinder.
                     </span>
                 </p>
                 <p className='text-slate-500 font-normal mb-4'>Get the most exciting jobs from all around the world and grow your career fast with other</p>
-            <Buttons type='find'/>
+            <Buttons type='find' text='Find Now'/>
             </div>
             <div className="imgHero">
                 <img className='rounded-xl' src={heroImg} alt="Hero Img" />
