@@ -13,15 +13,15 @@ const Search = () => {
 
   return (
     <div>
-      <div className="inputSearch bg-blue-600/10 mt-8 h-64 lg:h-20 flex items-center w-full rounded-md content-center">
+      <div className="inputSearch bg-blue-600 mt-8 h-64 lg:h-20 flex items-center w-full rounded-md content-center">
         <form className='flex flex-col lg:flex-row flex-wrap gap-4 mx-4 lg:ml-0 lg:gap-0 w-full justify-around lg:content-center lg:items-center'>
           <Box sx={{ display: 'flex', alignItems: 'flex-end'}}>
             <SearchOutlined sx={{ color: 'action.active', mr: 1, my: 0.5 }} />
-            <TextField fullWidth id="input-with-sx" label="Job title, keyword or company" color="info" variant="standard" />
+            <TextField fullWidth id="input-with-sx" label="Job title, keyword or company" color="info" variant="standard" sx={{ input: { color: 'white' } }}/>
           </Box>
           <Box sx={{ display: 'flex', alignItems: 'flex-end' }}>
             <LocationOnOutlined sx={{ color: 'action.active', mr: 1, my: 0.5 }} />
-            <TextField fullWidth id="input-with-sx" label="Area, city or town" color="info"  variant="standard" />
+            <TextField fullWidth id="input-with-sx" label="Area, city or town" color="info"  variant="standard" sx={{ input: { color: 'white' } }}/>
           </Box>
           <Select
           value={datePosted}
@@ -33,7 +33,7 @@ const Search = () => {
           <MenuItem value="">
             Any time
           </MenuItem>
-          <MenuItem value={1}>Last 24 hours</MenuItem>
+          <MenuItem value={1} >Last 24 hours</MenuItem>
           <MenuItem value={3}>Last 3 days</MenuItem>
           <MenuItem value={7}>Last 7 days</MenuItem>
           <MenuItem value={14}>Last 14 days</MenuItem>

@@ -14,8 +14,10 @@ const JobList = () => {
     return (
         <div className='xl:max-w-[1024px] lg:max-w-[820px] md:max-w-[650px] w-5/6 m-auto mt-2' data-aos="fade-up">
             <Navbar active='job' />
+            <div className='bg-gray-200 h-full'>
             <Search/>
             <JobCard/>
+            </div>
         </div>
     )
 }
