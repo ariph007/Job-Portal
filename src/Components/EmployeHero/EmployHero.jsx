@@ -4,7 +4,7 @@ import student from '../../assets/img/student.jpg'
 import { GoLocation } from "react-icons/go";
 const EmployHero = () => {
     return (
-        <div className='flex flex-col md:flex-row mt-10 justify-between gap-10'>
+        <div className='flex flex-col md:flex-row mt-20 justify-between gap-10 mb-10'>
             <div className="employeImg lg:w-7/12 relative content-center items-center align-middle flex">
                 <img src={student} alt="Employee" className='rounded-xl' />
                 <div className=' w-[200px] h-[200px] bg-white rounded-xl -bottom-12 shadow-lg left-2 hidden md:hidden lg:block absolute'>

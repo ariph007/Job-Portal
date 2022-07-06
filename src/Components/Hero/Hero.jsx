@@ -4,7 +4,7 @@ import Buttons from '../Buttons/Buttons'
 
 const Hero = () => {
     return (
-        <div className='flex md:flex-row flex-col mt-5 gap-10'>
+        <div className='flex md:flex-row flex-col mt-10 gap-10'>
             <div className="textHero flex flex-col justify-center content-center">
                 <p className='text-slate-800 font-bold text-4xl mb-4'>
                     Find your dream job with
