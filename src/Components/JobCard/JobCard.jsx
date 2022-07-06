@@ -1,4 +1,4 @@
-import React, { useEffect } from 'react'
+import React from 'react'
 import jobListDummy from '../../helper/jobListDummy'
 import { LocationOnOutlined, PaidOutlined, WorkOutlineOutlined } from '@mui/icons-material';
 
